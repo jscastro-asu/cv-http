@@ -39,9 +39,7 @@ a:link {
   text-decoration: none;
   color: #886D44;
 }
-img{
-  color: #F6F8DD;
-}
+
 /*******CLASS SELECTOR*******/
 /* If you have grouped elements you want to style*/
 /* You can use many classes say class="moon" "star"*/
