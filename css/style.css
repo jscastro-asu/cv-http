@@ -2,7 +2,10 @@
 
 body {
   background-color: #B9CAC8;
-  text-align: center
+  text-align: center;
+  margin: 0 auto;
+  height: 600px;
+
 }
 hr {
     height: 1px;
@@ -22,7 +25,7 @@ h3 {
   text-align: center;
 }
 p {
-  color: #234343
+  color: black;
   text-align: center;
 }
 td,tr {
@@ -33,7 +36,9 @@ img {
   border-radius: 50%;
 }
 * {
- font-family: monospace;
+ font-family: 'Roboto Slab', monospace ;
+ font-size: 16px:
+
 }
 a:link {
   text-decoration: none;
@@ -44,11 +49,13 @@ a:link {
 /* If you have grouped elements you want to style*/
 /* You can use many classes say class="moon" "star"*/
 .cam, .plants, .barbell {
-  background-color: #F6F8DD
+  background-color: #886D44;
+  886D44
+
 }
 
 .cam:hover, .plants:hover, .barbell:hover {
-  background-color: #234343
+  background-color: #F6F8DD
 }
 .row {
   display: flex;
@@ -62,20 +69,93 @@ a:link {
   justify-content: center;
 
 }
+.cloud {
+  border-radius: 0px;
+  padding-top: 0px;
+  height: 100px;
+  width: 120px;
+
+}
+
+.myname {
+  height: 120px;
+  width: 380px;
+  padding-bottom: 0;
+
+}
+
+.col {
+  padding-bottom: 100px;
+}
+
+.myrole {
+  height: 60px;
+  width: 680px;
+  border-radius: 0;
+  padding-top: 0;
+
+}
+.container {
+  background-color: #C5D3D1;
+  background-size: contain;
+
+
+}
+
+.bottom_cloud {
+  position: absolute;
+  border-radius: 0;
+  align:right;
+  left:50px;
+  width: 220px;
+  height: 230px;
+
+
+}
+
+.btn {
+  background: #6da187;
+  background-image: -webkit-linear-gradient(top, #6da187, #315469);
+  background-image: -moz-linear-gradient(top, #6da187, #315469);
+  background-image: -ms-linear-gradient(top, #6da187, #315469);
+  background-image: -o-linear-gradient(top, #6da187, #315469);
+  background-image: linear-gradient(to bottom, #6da187, #315469);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.btn:hover {
+  background: #1d2930;
+  background-image: -webkit-linear-gradient(top, #1d2930, #3b4a54);
+  background-image: -moz-linear-gradient(top, #1d2930, #3b4a54);
+  background-image: -ms-linear-gradient(top, #1d2930, #3b4a54);
+  background-image: -o-linear-gradient(top, #1d2930, #3b4a54);
+  background-image: linear-gradient(to bottom, #1d2930, #3b4a54);
+  text-decoration: none;
+}
+
+.lastcontainer {
+  background-color: #315E5E;
+  background-size: contain;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  background-size: contain;
+}
+
 
 /*******ID SELECTOR*******/
 /* If you have only a single identifier*/
 /* You cannot use many id say id="tree.*/
-#table {
+#main {
   color: #234343;
   width: 80%;
   border-collapse: collapse;
-
-}
-#heading {
-  font-size: 30px;
-}
-#job {
-  font-size: 20px;
-  font-color: #886D44;
 }
